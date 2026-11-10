@@ -1,0 +1,33 @@
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+enableStaticServing = true
+
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
+backgroundColor = "#f4f6fa"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#0f1b2d"
+linkColor = "#1c5cab"
+borderColor = "#dfe4ec"
+showWidgetBorder = true
+baseRadius = "0.625rem"
+font = "Inter, system-ui, -apple-system, 'Segoe UI', sans-serif"
+headingFont = "Inter, system-ui, -apple-system, 'Segoe UI', sans-serif"
+dataframeHeaderBackgroundColor = "#f4f6fa"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/inter-latin-wght-normal.woff2"
+weight = "100 900"
+
+[theme.sidebar]
+backgroundColor = "#0c2444"
+secondaryBackgroundColor = "#16335c"
+textColor = "#e8eef8"
+borderColor = "#274672"
